@@ -19,6 +19,13 @@
     z-index: -1;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
   }
+  // alinhar botão no centro do projects - mobile
+  @include respond(phone) {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /* Hero Style */
