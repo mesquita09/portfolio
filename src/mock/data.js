@@ -18,9 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'logo_branco.png',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'Desenvolvemos estratégias e soluções ágeis para sua empresa através de Websites e Marketing digital.',
+  paragraphTwo:
+    'Somos uma empresa digital 100% remota. Isso significa que por exemplo, o cliente não precisará se deslocar para reuniões e tudo pode ser resolvido através de chamadas rápidas e objetivas, conferindo agilidade no desenvolvimento e economia do seu tempo.',
+  paragraphThree:
+    'Atendemos clientes de diversos portes e áreas de atuação, nacionais e internacionais. Nossos projetos são baseados nos aspectos relevantes as suas necessidades!',
   // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -30,27 +33,49 @@ export const projectsData = [
     id: uuidv1(),
     img: 'projeto_kuzola.png',
     title: 'Kuzola Mona',
-    info: '',
-    info2: '',
+    info:
+      'Clinica localizada em Angola que presta suporte terapêutico, com ênfase na identificação e tratamento das alterações no desenvolvimento das crianças, desde a primeira infância',
+    info2:
+      'Proposta: desenvolvimento, armazenagem e manutenção do site, e-mails, domínio e marketing digital.',
     url: 'https://www.kuzolamona.com',
-    repo: '', // if no repo, the button will not show up
+    repo: 'http://instagram.com/kuzolamona', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
     img: 'projeto_indice.png',
     title: 'Indice Empresarial',
-    info: '',
-    info2: '',
+    info:
+      'Escritório virtual que viabiliza negócios por meio de estruturas compartilhadas de escritório corporativo',
+    info2: 'Proposta: desenvolvimento e manutenção do site e marketing digital.',
     url: 'https://www.indicempresarial.com',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://www.instagram.com/indicempresarial/', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
     img: 'projeto_rlz.png',
     title: 'RLZ Empreendimentos',
-    info: '',
-    info2: '',
+    info:
+      'Empresa de engenharia que atua no mercado angolano da construção civil e infraestruturas, nos segmentos de projetos arquitetônicos e urbanísticos, fiscalização técnica, gestão e execução de obras e desminagem.',
+    info2: 'Proposta: Desenvolvimento e manutenção do site',
     url: 'https://www.rlzempreendimentos.com',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'projeto_rlz.png',
+    title: 'Panificadora Fornepan',
+    info: 'Padaria com mais de 60 anos de atuação no mercado baiano',
+    info2: 'Proposta: Site em desenvolvimento',
+    url: 'https://www.fornepan.com.br',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'projeto_rlz.png',
+    title: 'Behrens Odontologia',
+    info: 'Centro odontologico de grande destaque',
+    info2: 'Proposta: Site em desenvolvimento',
+    url: 'https://www.behrensodontologia.com.br',
     repo: '', // if no repo, the button will not show up
   },
 ];
