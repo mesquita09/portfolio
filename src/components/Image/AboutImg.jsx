@@ -30,11 +30,12 @@ const AboutImg = ({ filename, alt }) => (
       if (!image) return null;
 
       const imageFixed = image.node.childImageSharp.fixed;
-      return <Img className="rounded shadow-lg" alt={alt} fixed={imageFixed} />;
+      return <Img className="" alt={alt} fixed={imageFixed} />;
+      // opção com contorno na imagem
+      // return <Img className="rounded shadow-lg" alt={alt} fixed={imageFixed} />;
     }}
   />
 );
-
 AboutImg.propTypes = {
   filename: PropTypes.string,
   alt: PropTypes.string,

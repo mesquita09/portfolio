@@ -62,7 +62,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'projeto_rlz.png',
+    img: 'desenvolvimento.png',
     title: 'Panificadora Fornepan',
     info: 'Padaria com mais de 60 anos de atuação no mercado baiano',
     info2: 'Proposta: Site em desenvolvimento',
@@ -71,7 +71,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'projeto_rlz.png',
+    img: 'desenvolvimento.png',
     title: 'Behrens Odontologia',
     info: 'Centro odontologico de grande destaque',
     info2: 'Proposta: Site em desenvolvimento',
