@@ -37,6 +37,7 @@ export const projectsData = [
       'Clinica localizada em Angola que presta suporte terapêutico, com ênfase na identificação e tratamento das alterações no desenvolvimento das crianças, desde a primeira infância',
     info2:
       'Proposta: desenvolvimento, armazenagem e manutenção do site, e-mails, domínio e marketing digital.',
+    testemonial: '',
     url: 'https://www.kuzolamona.com',
     repo: 'http://instagram.com/kuzolamona', // if no repo, the button will not show up
   },
@@ -47,6 +48,7 @@ export const projectsData = [
     info:
       'Escritório virtual que viabiliza negócios por meio de estruturas compartilhadas de escritório corporativo',
     info2: 'Proposta: desenvolvimento e manutenção do site e marketing digital.',
+    testemonial: '',
     url: 'https://www.indicempresarial.com',
     repo: 'https://www.instagram.com/indicempresarial/', // if no repo, the button will not show up
   },
@@ -57,15 +59,17 @@ export const projectsData = [
     info:
       'Empresa de engenharia que atua no mercado angolano da construção civil e infraestruturas, nos segmentos de projetos arquitetônicos e urbanísticos, fiscalização técnica, gestão e execução de obras e desminagem.',
     info2: 'Proposta: Desenvolvimento e manutenção do site',
+    testemonial: '',
     url: 'https://www.rlzempreendimentos.com',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'desenvolvimento.png',
+    img: 'projeto_fornepan.png',
     title: 'Panificadora Fornepan',
     info: 'Padaria com mais de 60 anos de atuação no mercado baiano',
     info2: 'Proposta: Site em desenvolvimento',
+    testemonial: '',
     url: 'https://www.fornepan.com.br',
     repo: '', // if no repo, the button will not show up
   },
@@ -75,6 +79,7 @@ export const projectsData = [
     title: 'Behrens Odontologia',
     info: 'Centro odontologico de grande destaque',
     info2: 'Proposta: Site em desenvolvimento',
+    testemonial: '',
     url: 'https://www.behrensodontologia.com.br',
     repo: '', // if no repo, the button will not show up
   },
