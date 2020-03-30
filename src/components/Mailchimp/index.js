@@ -7,7 +7,7 @@
     // For head
     document.head.appendChild(script);
   }
-} */
+} 
 
 const Mailchimp = callback => {
   const existingScript = document.getElementById('mcjs');
@@ -27,4 +27,4 @@ const Mailchimp = callback => {
   if (existingScript && callback) callback();
 };
 
-export default Mailchimp;
+export default Mailchimp; */

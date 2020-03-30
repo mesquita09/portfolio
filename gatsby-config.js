@@ -15,7 +15,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
-        endpoint: '', // add your MC list endpoint here; see instructions below
+        endpoint:
+          'https://chimpstatic.com/mcjs-connected/js/users/6d2cf372e89cc2d8f4fbadda8/e1ed7dcea42f13dceef0f5f6e.js', // add your MC list endpoint here; see instructions below
       },
     },
     {
