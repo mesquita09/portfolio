@@ -17,7 +17,7 @@ const Mailchimp = callback => {
     script.src =
       'https://chimpstatic.com/mcjs-connected/js/users/6d2cf372e89cc2d8f4fbadda8/e1ed7dcea42f13dceef0f5f6e.js';
     script.id = 'mcjs';
-    document.body.appendChild(script);
+    document.head.appendChild(script);
 
     script.onload = () => {
       if (callback) callback();
