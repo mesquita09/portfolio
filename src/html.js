@@ -4,7 +4,7 @@
 /* eslint-disable jsx-a11y/html-has-lang */
 import React from 'react';
 import PropTypes from 'prop-types';
-import Mailchimp from './components/Mailchimp';
+// import mcjs from './components/Mailchimp';
 
 export default function HTML({
   htmlAttributes,
@@ -20,7 +20,6 @@ export default function HTML({
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        {Mailchimp}
         {headComponents}
       </head>
       <body {...bodyAttributes}>
